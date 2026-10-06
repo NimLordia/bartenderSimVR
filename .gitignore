@@ -1,0 +1,41 @@
+# Unity caches and local editor state (the project has its own detailed rules).
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+.vs/
+.idea/
+*.log
+*.tmp
+
+# Generated builds, including command-line tooling outputs.
+/[Bb]uild/
+/[Bb]uilds/
+/[Aa]rtifacts/
+/Tools/**/[Bb]uild/
+/Tools/**/[Bb]uilds/
+/Tools/**/[Oo]utput/
+/Tools/**/[Oo]utputs/
+/Tools/**/[Aa]rtifacts/
+/Tools/**/bin/
+/Tools/**/__pycache__/
+/Tools/**/.venv/
+/Tools/UnityValidation/
+/Tools/PackageInspection/
+/Tools/PreservedValidationCaches/
+*.apk
+*.aab
+
+# Generated IDE projects and operating-system files.
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+Thumbs.db
+.DS_Store

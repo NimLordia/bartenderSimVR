@@ -1,0 +1,24 @@
+{
+    "name": "BartenderSimVR.Prototype.TestSetup.Editor",
+    "rootNamespace": "BartenderSimVR.Tests.Editor",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
